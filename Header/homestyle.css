@@ -1,0 +1,63 @@
+.header
+{
+	background-color:black;
+	color:white;
+	height:40px;
+	padding:8px 0px 6px 40px;
+}
+.header h1
+{
+	font-family:Arial;
+	font-size;20px;
+	margin-top:0px;
+	display:inline;
+	float:left;
+
+}
+
+.nav>ul>li
+{
+	padding:0;
+	display:inline;
+	float:left;
+	list-style-type:none;
+	color:white;
+	margin-left:20px;
+}
+.nav ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+.homered
+{
+background-color:red;
+padding:30px 10px 10px 10px;
+}
+.homeblack:hover
+{
+background-color:blue;
+padding:30px 10px 10px 10px;
+}
+.homeblack:hover,.homered:hover
+{
+text-decoration:underline;
+
+}
+.aboutmenu
+{
+ list-style:inherit;
+ border:1px solid red;
+ position:absolute;
+ margin-left:40px;
+ visibility:hidden;
+}
+
+a#about:hover+.aboutmenu
+{
+	visibility:visible;
+}
+body
+{
+	margin:0;
+}
